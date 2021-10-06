@@ -1,0 +1,47 @@
+<?php
+return [
+	'adminMail' 					=> 'paragb.itworks@gmail.com',
+	'CURRENTEPOCH' 					=> round(microtime(true)*1000),
+    'api_account_not_valid_req' 	=> 'Invalid credentials, or the account may be inactive.',
+    'retailer_save'                 => 'Reatiler added successfully!',
+	'retailer_not_save'                 => 'Reatiler not added.',
+	'retailer_update'                 => 'Reatiler updated successfully!',
+	'invalid_token'                 => 'Invalid Token',
+
+    'VALIDATION' 			=> 'Invalid request parameters.',
+	'ACCOUNT_NOT_FOUND' 	=> 'Invalid credentials, or the account may be inactive.',
+	'VALID_CARD_ID' 		=> 'No cart found, please browse the product via the product page.',
+	'VALID_VARIANT' 		=> 'Product variant not found, please try again.',
+	'VALID_QUANTITY' 		=> 'Insufficient inventory, please select lower quantity',
+	'CHECKOUT_FAIL' 		=> 'Cart was checked out and cannot be re-used. Please create a new cart.',
+	'ABANDON_FAIL' 			=> 'Cart was abandoned and cannot be re-used. Please create a new cart.',
+	'PROMOCODE_FAIL' 		=> 'Invalid promo code',
+	'EMAIL_FAIL' 			=> 'Customer email not found',
+	'PROMOCODE_USED_FAIL' 	=> 'Promo code was already used at this kiosk',
+	'SUCCESS_REMOVE' 		=> "Item removed from cart successfully.",
+	'VARIANT_ID_FAIL'		=> "Nothing to remove, please reload your cart page.",
+	'SUCCESS_CART' 			=> "Item added successfully to cart",
+	'CART_LIMIT' 			=> "Cart amount too high to process, please checkout the current cart first",
+	'PRODUCT_FAIL' 			=> "Please browse the product via the catalogue.", 
+	'CART_TOTAL_LIMIT' 		=> 999999,
+	'SUCCESS' 				=> 'Success',
+	'STRIPE_PRIVATE_KEY_FAIL' => 'The account is not setup to receive payments yet. Unable to register Kiosk.',
+	'ACCOUNT_STATUS_FAIL' 	=> 'The account may be inactive.',
+	'SUCCESS_PROMO' 		=> 'Promo code applied successfully',
+    'SUCESS_PAYMENT'		=> "Order placed successfully",
+    'TOTAL_MISMATCH' 		=>  "Total mismatch, please try again",
+    'CHECKOUT_ORDER_FAIL' 	=> "Unable to process your order at this time, please try again later.",
+    'PAYMENT_PROCESS_FAIL' 	=> "Something went wrong, While processing payment",
+    'TEMPLATE_SUCCESS' 		=> 'Template assigned to machine successfully',
+    'TEMPLATE_FAIL' 		=> 'Template is not available for provided machine',
+    'CONSUMTION_FAIL' 		=> 'No, they hit their limit',
+    'CONSUMTION_SUCCESS' 	=> 'Yes, they can drink',
+    'SUCCESS_CHECKOUT' 		=> 'Thanks for shopping!',
+    'REMOVE_FAIL' 			=> "Nothing to remove, please reload your cart page.",	
+
+	'INVALID_DATA' 			=> "Please provide valid data.",	
+	
+	'SMS_KEY' => '801aftkQ7Cg9SHzc4Zo2Ls35qBTDNPjXUwuAeGidlxRYpbFVr6eCXPbGOZiR6T2SopKF9aB3nzwD4JNU',
+
+    // and so on
+];
